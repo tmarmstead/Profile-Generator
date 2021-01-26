@@ -10,7 +10,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
-const employees = [];
+const teamArr = [];
 /*
 1. Capture User Input
 2. Build Class with user inputs
@@ -46,7 +46,7 @@ function addManager() {
             response.managerId,
             response.managerEmail,
             response.managerOfficeNumber);
-        employees.push(manager);
+        teamArr.push(manager);
         crossRoads();
     })
 }
@@ -101,7 +101,7 @@ function addEngineer() {
         },
     ]).then(res => {
         const engineer = new Engineer(res.engineerName, res.engineerId,res.engineerEmail, res.engineerGithub);
-        employees.push(engineer);
+        teamArr.push(engineer);
         crossRoads()
     })
 }
@@ -130,13 +130,13 @@ function addIntern() {
         },
     ]).then(res => {
         const intern = new Intern(res.internName, res.internId, res.internEmail, res.internSchool);
-        employees.push(intern);
+        teamArr.push(intern);
         crossRoads();
     })
 }
 
 function buildTeam() {
-    fs.writeFileSync(outputPath, render(employees), 'utf-8');
+    fs.writeFileSync(outputPath, render(teamArr), 'utf-8');
 }
 
 
