@@ -136,7 +136,7 @@ function addIntern() {
 }
 
 function buildTeam() {
-    fs.writeFileSync(outputPath, render(teamArr), 'utf-8');
+    fs.writeFileSync('./lib/output/team.html', render(teamArr), 'utf-8');
 }
 
 
