@@ -17,6 +17,8 @@
  
   ## Demo:
   [Link to video walkthrough](https://drive.google.com/file/d/1wJgZb_GpQRtpfMTbxnM83n-JR3pGUl07/view)
+  [Link to video walkthrough of tests](https://drive.google.com/file/d/1a6MDLg-wor5BNwymH-KCYbsetizMX01w/view)
+  
 
   ## Installation: 
   To install, copy the link from the repo and use `git clone` to add it to a local folder
@@ -34,6 +36,7 @@
   
   ## Test: 
   Testing functionality included
+  [Link to video walkthrough of tests](https://drive.google.com/file/d/1a6MDLg-wor5BNwymH-KCYbsetizMX01w/view)
   
   ## Questions: 
   If you have any questions you can reach me with the below contact information: 
