@@ -16,7 +16,7 @@
   This app is designed to take user input through the commandline and generate an html file that appends a card for each employee and their corresponding information to that html file
  
   ## Demo:
-  [Link to video walkthrough](https://drive.google.com/file/d/1wJgZb_GpQRtpfMTbxnM83n-JR3pGUl07/view)
+  [Link to video walkthrough](https://drive.google.com/file/d/1wJgZb_GpQRtpfMTbxnM83n-JR3pGUl07/view)  
   [Link to video walkthrough of tests](https://drive.google.com/file/d/1a6MDLg-wor5BNwymH-KCYbsetizMX01w/view)
   
 
@@ -35,7 +35,7 @@
  
   
   ## Test: 
-  Testing functionality included
+  Testing functionality included  
   [Link to video walkthrough of tests](https://drive.google.com/file/d/1a6MDLg-wor5BNwymH-KCYbsetizMX01w/view)
   
   ## Questions: 
